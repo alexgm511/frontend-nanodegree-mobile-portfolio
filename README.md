@@ -4,7 +4,8 @@
 
 ####Part 1: Optimize PageSpeed Insights score for index.html
 
-	Found https://gist.github.com/PaulKinlan/6284142#file-criticalcss-bookmarklet-devtool-snippet-js to figure out which css elements are used above the fold. Since on index.html and the other three html files everything is above the fold...
+Found https://gist.github.com/PaulKinlan/6284142#file-criticalcss-bookmarklet-devtool-snippet-js to figure out which css elements are used above the fold. Since on index.html and the other three html files everything is above the fold...
+
 1. Minimized and inlined the whole style.css stylesheet.
 2. Make print.css async and place at the end of index.html file
 3. Make google font, analytics.js and perfmatters.js all async and place at the end of index.html file
